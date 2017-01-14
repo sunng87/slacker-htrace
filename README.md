@@ -1,14 +1,17 @@
 # slacker-htrace
 
-A Clojure library designed to ... well, that part is up to you.
+A support library that integrates [Apache
+HTrace](http://htrace.incubator.apache.org) into [Slacker
+RPC](https://github.com/sunng87/slacker), with which your remote calls
+are distributed traced.
 
 ## Usage
 
-FIXME
+Check `examples/` for usage.
 
 ## License
 
-Copyright © 2017 FIXME
+Copyright © 2017 Ning Sun
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
