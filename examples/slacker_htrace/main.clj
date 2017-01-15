@@ -16,7 +16,7 @@
   (let [server (ss/start-slacker-server (the-ns 'slacker-htrace.api) 2334
                                         :interceptors (si/interceptors [(st/server-interceptor tr/tracer tr/tracer-extension-id)]))]
 
-    (println (expensive-operations 2))
+    (dotimes [_ 50] (println (expensive-operations 2)))
 
     ;; close everything
     (sc/shutdown-slacker-client-factory)
