@@ -5,7 +5,7 @@
 (def htrace-config-map
   (try
     ;; try load zipkin receiver
-    (import '[org.apache.htrace.impl.ZipkinSpanReceiver])
+    (import '[org.apache.htrace.impl ZipkinSpanReceiver])
     {"span.receiver.classes" "org.apache.htrace.impl.ZipkinSpanReceiver"
      "zipkin.scribe.hostname" "localhost"
      "zipkin.scribe.port" "9410"
