@@ -1,6 +1,6 @@
 (defproject slacker-htrace "0.1.0-SNAPSHOT"
   :description "A htrace extension for slacker rpc"
-  :url "http://example.com/FIXME"
+  :url "http://github.com/sunng87/slacker-htrace"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[slacker "0.15.0-SNAPSHOT"]
