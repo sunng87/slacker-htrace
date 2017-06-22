@@ -1,4 +1,4 @@
-(defproject slacker-htrace "0.1.0-SNAPSHOT"
+(defproject slacker/slacker-htrace "0.1.0-SNAPSHOT"
   :description "A htrace extension for slacker rpc"
   :url "http://github.com/sunng87/slacker-htrace"
   :license {:name "Eclipse Public License"
