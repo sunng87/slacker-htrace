@@ -3,7 +3,7 @@
   :url "http://github.com/sunng87/slacker-htrace"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
-  :dependencies [[slacker "0.15.0-SNAPSHOT"]
+  :dependencies [[slacker "0.15.0"]
                  [org.apache.htrace/htrace-core4 "4.2.0-incubating"]]
   :profiles {:example {:source-paths ["examples"]}
              :zipkin-example {:dependencies [[org.apache.htrace/htrace-zipkin "4.2.0-incubating"]]}
